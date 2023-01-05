@@ -7,6 +7,13 @@
     "description": "My first application",
     "icons": [
         {
+            "src": "mushroom-64.png",
+            "type": "image/png",
+            "sizes": "64x64",
+            "purpose": "any"
+
+        },
+        {
             "src": "mushroom-44.png",
             "type": "image/png",
             "sizes": "512x512",
