@@ -1,6 +1,11 @@
 {
     "name": "My First Application",
     "short_name": "MFA",
+    "start_url": ".",
+    "display": "standalone",
+    "id": "mfa",
+    "theme_color": "blue",
+    "description": "My first application",
     "icons": [
         {
             "src": "ninja.png",
@@ -8,9 +13,5 @@
             "sizes": "900x520",
             "purpose": "any"
         }
-    ],
-    "start_url": "/",
-    "display": "standalone",
-    "id": "saluuuuuuuuuu",
-    "theme_color": "blue"
+    ]
 }
