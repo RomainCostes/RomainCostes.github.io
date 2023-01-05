@@ -17,9 +17,9 @@ const registerServiceWorker = async () => {
     if ("serviceWorker" in navigator) {
         try {
             const registration = await navigator.serviceWorker.register(
-                "https://vincentdm31.github.io/pwa/sw.js",
+                "https://romaincostes.github.io/sw.js",
                 {
-                    scope: "https://vincentdm31.github.io/pwa/",
+                    scope: "https://romaincostes.github.io/",
                 }
             );
             if (registration.installing) {
