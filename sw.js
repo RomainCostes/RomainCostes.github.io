@@ -6,12 +6,11 @@ const addResourcesToCache = async (resources) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
-            "/pwa/",
-            "/pwa/index.html",
-            "/pwa/index.css",
-            "/pwa/app.js",
-            "/pwa/cat-48.png",
-            "/pwa/cat.png",
+            "/",
+            "/index.html",
+            "/index.css",
+            "/app.js",
+            "/mushroomm-44.png",
         ])
     );
 });
