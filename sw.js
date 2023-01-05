@@ -10,7 +10,7 @@ self.addEventListener("install", (event) => {
             "/index.html",
             "/index.css",
             "/app.js",
-            "/mushroomm-44.png",
+            "/mushroom-44.png",
         ])
     );
 });
